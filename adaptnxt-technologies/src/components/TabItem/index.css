@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.tab-item {
+    list-style-type: none;
+   margin: 0px 0px 0px 5px;
+   padding: 0px;
+}
+.tab {
+    background-color: transparent;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 5px;
+}
+.active-tab {
+        text-decoration: underline;
+        text-decoration-color: blue;
+        color: blue;
+        background-color: transparent;
+        outline: none;
+        border: 0px;
+        cursor: pointer;
+        font-size: 17px;
+        font-weight: 400;
+        padding: 5px;
+}
+
+@media screen and (max-width : 768px) {
+    
+.tab-item,.tab,.active-tab {
+    font-size: 10px;
+}
+}
