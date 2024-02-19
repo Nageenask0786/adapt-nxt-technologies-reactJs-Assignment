@@ -1,6 +1,6 @@
 # adapt-nxt-technologies-reactJs-Assignment
 ## Title
-Creating an Order Page with the design provided
+Creating an Orders Page with the design provided
 
 
 ## Objective 
